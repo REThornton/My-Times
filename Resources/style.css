@@ -18,16 +18,22 @@ a{
 
 /*BODY*/
 
+.bodycontainer{
+  display: flex;
+}
 .column.large {
+  display: inline-flex;
   width: 630px;
   border: 3px solid black;
   flex-direction: column;
 }
 
 .column.medium {
+  display: inline-flex;
   width: 300px;
 }
 
 .column.small {
+  display: inline-flex;
   width: 240px;
 }
