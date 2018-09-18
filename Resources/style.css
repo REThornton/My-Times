@@ -39,23 +39,39 @@ a{
 }
 /*MAIN-STORY IMAGE BEHIND CAPTION*/
 .story-main{
-
+display: flex;
+}
+.mother{
+color: white;
+position: absolute;
 }
 /*FALL SEASON IMAGE BEHIND CAPTION*/
 .Fall{
-
+display: flex;
+}
+.Earth{
+  position: absolute;
+  color: white;
 }
 /*CAMERA IMAGE BEHIND CAPTION*/
 .camera{
-
+display: flex;
+}
+.Research{
+  color: white;
+  position: absolute;
 }
 /*CAT IMAGE BEHIND CAPTION*/
 .cat{
-
+display: flex;
+}
+.Catsin{
+  color: white;
+  position: absolute;
 }
 /*COOKIE IMAGE BEHIND CAPTION*/
 .cookie{
-
+display: flex;
 }
 /*EVERYTHING ELSE*/
 p{
