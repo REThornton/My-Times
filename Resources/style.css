@@ -37,7 +37,29 @@ a{
   display: inline-flex;
   width: 240px;
 }
-/*1ST IMAGE BEHIND CAPTION*/
+/*MAIN-STORY IMAGE BEHIND CAPTION*/
 .story-main{
 
+}
+/*FALL SEASON IMAGE BEHIND CAPTION*/
+.Fall{
+
+}
+/*CAMERA IMAGE BEHIND CAPTION*/
+.camera{
+
+}
+/*CAT IMAGE BEHIND CAPTION*/
+.cat{
+
+}
+/*COOKIE IMAGE BEHIND CAPTION*/
+.cookie{
+
+}
+/*EVERYTHING ELSE*/
+p{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
