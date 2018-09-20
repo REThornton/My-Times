@@ -40,12 +40,17 @@ a{
 #Burger{
   width: 315px;
   margin-left: 315px;
-  margin-top: -2px;
+  margin-top: -5px;
+}
+#Burgercap{
+  width: 315px;
+  margin-left: 315px;
+  margin-top: -500px;
 }
 #Burgerpos{
   width: 315px;
   margin-left: 315px;
-  margin-bottom: 315px;
+  margin-top: -300px;
 }
 .column.split {
   display: inline-flex;
