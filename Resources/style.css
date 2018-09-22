@@ -167,4 +167,41 @@ p{
   font-size: 17px;
   color: black;
 }
+
 /*FOOTER*/
+
+footer{
+  display: flex;
+  background-color: MediumAquamarine;
+  margin-top: 50px;
+}
+.footcontainer1{
+  display: flex;
+  text-align: center;
+}
+.footcontainer2{
+  display: flex;
+}
+span#footspan{
+  width: 100%;
+  text-align: center;
+}
+.MYTimes{
+ font-family: Georgia;
+ font-size: 16px;
+ font-weight: bold;
+ color: white;
+ padding: 50px;
+}
+.foot{
+  display: inline-flex;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  width: 100%;
+  text-align: center;
+}
+.footspan{
+  display: inline-flex;
+  text-align: center;
+}
