@@ -192,6 +192,8 @@ span#footspan{
  font-weight: bold;
  color: white;
  padding: 50px;
+ border-right-style: solid;
+ border-right-width: thin;
 }
 .foot{
   display: inline-flex;
