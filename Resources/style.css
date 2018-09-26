@@ -4,6 +4,10 @@
   border-style: solid;
   border-width: thin;
   padding: 15px;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
 }
 span{
   display: inline-block;
@@ -27,6 +31,9 @@ a{
 .bodycontainer{
   display: flex;
   flex-direction: row;
+  box-sizing: border-box;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .bodycontainer2{
   display: flex;
