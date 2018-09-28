@@ -35,72 +35,125 @@ a{
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.bodycontainer2{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.story1{
-  display: inline-flex;
-  padding-right: 30px;
-}
+
+/*LARGE COLUMN*/
+
 .column.large {
+  display: flex;
+  width: 630px;
+  flex-direction: row;
+}
+.flex1{
   display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 630px;
+  border: 5px solid red;
+  padding-top: 50px;
+  }
+
+/*FLEX1/MAIN-STORY IMAGE BEHIND CAPTION*/
+
+.mother{
+color: white;
+height: -500px;
+position: absolute;
+font-family: Georgia;
+font-weight: bold;
+font-size: 40px;
+}
+.main{
+  display: inline-block;
   width: 630px;
 }
-#Orca{
-  width: 315px;
-}
-#Burger{
-  width: 315px;
-  margin-left: 315px;
-  margin-top: -5px;
-}
-#Burgercap{
-  width: 315px;
-  margin-left: 315px;
-  margin-top: -500px;
-}
-#Burgerpos{
-  width: 315px;
-  margin-left: 315px;
-  margin-top: -300px;
-}
-.column.split {
-  display: inline-flex;
-  width: 300px;
-}
-.story2{
+.flex2{
   display: flex;
-  position: relative;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 630px;
+  border: 5px solid red;
 }
-.story3{
+.flex4{
   display: flex;
-  position: relative;
-  flex-direction: column;
+  flex-direction: row;
+  width: 630px;
+  border: 5px solid red;
 }
-.story4{
-  display: flex;
-  flex-direction: column;
-  padding-right: 30px;
-  padding-top: 60px;
+/*FLEX4/FALL SEASON IMAGE BEHIND CAPTION*/
+.Fall{
+display: flex;
+align-items: center;
+justify-content: center;
 }
-.story5{
-  display: flex;
+.Earth{
+  position: absolute;
+  color: white;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
 }
+/*FLEX5/CAMERA IMAGE BEHIND CAPTION*/
+.camera{
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+.Research{
+  color: white;
+  position: absolute;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  justify-content: flex-end;
+}
+
+/*MEDIUM COLUMN*/
+
 .column.medium {
-  display: inline-flex;
-  width: 300px;
-  margin-left: : 350px;
-}
-.story6{
   display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: 5px solid red;
+  flex-wrap: wrap;
 }
+
+.FBI{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  width: 300px;
+}
+
+.FBIext{
+  width: 300px;
+}
+/*CAT IMAGE BEHIND CAPTION*/
+.cat{
+display: flex;
+text-align: center;
+align-items: center;
+}
+.Catsin{
+  color: white;
+  position: absolute;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/*SMALL COLUMN*/
+
 .column.small {
-  display: inline-flex;
+  display: flex;
   width: 240px;
   flex-direction: column;
+}
+.flex8{
+  display: inline-flex;
+  border: 5px solid red;
 }
 .bites{
   font-size: 16px;
@@ -116,58 +169,7 @@ a{
   border-bottom-style: solid;
   border-bottom-width: thin;
 }
-/*MAIN-STORY IMAGE BEHIND CAPTION*/
-.story-main{
-display: flex;
-padding-top: 50px;
-padding-right: 25px;
-}
-.mother{
-color: white;
-position: absolute;
-font-family: Georgia;
-font-weight: bold;
-font-size: 40px;
-}
-/*FALL SEASON IMAGE BEHIND CAPTION*/
-.Fall{
-display: flex;
-}
-.Earth{
-  position: absolute;
-  color: white;
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  text-align: center;
-}
-/*CAMERA IMAGE BEHIND CAPTION*/
-.camera{
-display: flex;
-}
-.Research{
-  color: white;
-  position: absolute;
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  text-align: center;
-}
-/*CAT IMAGE BEHIND CAPTION*/
-.cat{
-display: flex;
-}
-.Catsin{
-  color: white;
-  position: absolute;
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-}
-/*COOKIE IMAGE BEHIND CAPTION*/
-.cookie{
-display: flex;
-}
+
 /*EVERYTHING ELSE*/
 p{
   font-family: Georgia;
@@ -175,6 +177,11 @@ p{
   color: black;
 }
 
+#h3{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+}
 /*FOOTER*/
 
 footer{
@@ -184,6 +191,7 @@ footer{
 }
 .footcontainer1{
   display: flex;
+  flex-direction: row;
   text-align: center;
 }
 .footcontainer2{
