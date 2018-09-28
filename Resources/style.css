@@ -36,12 +36,31 @@ a{
   padding-bottom: 50px;
 }
 
+.bodycontainer2{
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding-bottom: 50px;
+  padding-left: 40px;
+  justify-content: space-around;
+}
+
+.bodycontainer3{
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding-bottom: 50px;
+  padding-left: 40px;
+  justify-content: space-around;
+}
+
 /*LARGE COLUMN*/
 
 .column.large {
   display: flex;
   width: 630px;
   flex-direction: row;
+  justify-content: space-between;
 }
 .flex1{
   display: inline-flex;
@@ -170,7 +189,12 @@ align-items: center;
   border-bottom-width: thin;
 }
 
+.gray{
+  background-color: WhiteSmoke;
+}
+
 /*EVERYTHING ELSE*/
+
 p{
   font-family: Georgia;
   font-size: 17px;
