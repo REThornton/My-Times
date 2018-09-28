@@ -87,11 +87,33 @@ font-size: 40px;
 }
 .flex2{
   display: flex;
+  position: relative;
   flex-direction: row;
   flex-wrap: wrap;
   width: 630px;
   border: 5px solid red;
 }
+#Orca{
+  width: 50%;
+}
+#Orca2{
+  display: inline-flex;
+  width: 50%;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+}
+#Burger{
+  width: 50%;
+}
+#Burger2{
+  width: 50%;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  flex-wrap: wrap;
+}
+
 .flex4{
   display: flex;
   flex-direction: row;
@@ -154,6 +176,7 @@ justify-content: center;
 display: flex;
 text-align: center;
 align-items: center;
+justify-content: center;
 }
 .Catsin{
   color: white;
@@ -202,6 +225,7 @@ p{
 }
 
 #h3{
+  display: flex;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -209,23 +233,24 @@ p{
 /*FOOTER*/
 
 footer{
-  display: flex;
+  display: inline-flex;
   background-color: MediumAquamarine;
   margin-top: 50px;
 }
 .footcontainer1{
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
+  align-items: center;
   text-align: center;
-}
-.footcontainer2{
-  display: flex;
+  width: 100%;
+  justify-content: space-around;
 }
 span#footspan{
   width: 100%;
   text-align: center;
 }
 .MYTimes{
+  display: inline-flex;
  font-family: Georgia;
  font-size: 16px;
  font-weight: bold;
@@ -233,9 +258,9 @@ span#footspan{
  padding: 50px;
  border-right-style: solid;
  border-right-width: thin;
+ width: 100%;
 }
 .foot{
-  display: inline-flex;
   margin: auto;
   font-family: Verdana;
   font-size: 12px;
